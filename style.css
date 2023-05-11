@@ -3,9 +3,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-#link {
-    color: red;
-}
+
 #particles-js {
     background: #eaebf4;
     position: fixed;
@@ -213,6 +211,28 @@ a {
 }
 
 
+/*------Desktop------*/
+@media (max-width: 1799px) {
+    .welcome-section h1 {
+        color: red;
 
+    }
+}
+/*------Tablet ------*/
+@media (max-width: 1201px){
+    .welcome-section h1 {
+        color: rgb(0, 204, 34);
+
+    }
+}
+/*------ Mobile -----*/
+@media (max-width: 599px) {
+    .welcome-section h1 {
+        color: rgb(255, 0, 234);
+    }
+    .nav {
+        justify-content: center;
+    }
+}
 
               
