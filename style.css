@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,7 +47,7 @@
 .nav li {
     float: left;
     list-style: none;
-    padding: 20px;
+    margin: 20px;
     font-size: 20px;
 
 }
@@ -108,7 +109,7 @@ a {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     grid-gap: 30px;
     width: 100%;
     max-width: 1280px;
@@ -116,6 +117,7 @@ a {
 }
 
 .card  {
+    margin: 10px;
     padding: 5px;
     background-color: #d5ddf5;
     border-radius: 5px;
@@ -228,11 +230,35 @@ a {
 /*------ Mobile -----*/
 @media (max-width: 599px) {
     .welcome-section h1 {
+        font-size: 5vh;
         color: rgb(255, 0, 234);
+        text-align: center;
+    }
+    .welcome-section p{
+        font-size: 2vh;
     }
     .nav {
         justify-content: center;
     }
+    .card {
+        transition:none;
+        
+    }
+    .card:hover{
+        transform: none;
+    }
+    .welcome-section p {
+        padding: 5%;
+    }
+    .contact-section-header>h2{
+        font-size: 3vh;
+        padding: 1rem;
+    }
+    .contact-section-header>p {
+        font-size: 2vh;
+        padding: 1rem;
+    }
+    .contact-details {
+        font-size: 2vh;
+    }
 }
-
-              
