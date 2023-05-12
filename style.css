@@ -98,9 +98,7 @@ a {
 
 }
 
-
 /* Projects section */
-
 
 .projects-section {
     padding-top: 5vh;
@@ -109,7 +107,6 @@ a {
 .projects-section h2 {
     color: rgb(174, 185, 206);
 }
-
 .projects-section-header {
     font-size: 30px;
     margin: 0 auto 100px auto;
@@ -117,7 +114,6 @@ a {
     padding: 15px;
     background-color: var(--details);
 }
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
@@ -126,7 +122,6 @@ a {
     max-width: 1280px;
     margin: 0 auto;
 }
-
 .card {
     margin: 10px;
     padding: 5px;
@@ -135,12 +130,9 @@ a {
     transition: transform 533ms ease-out;
     border: 3px solid #a6b0d3;
 }
-
 .card:hover {
     transform: translate(0px, 0px) scale(1.1, 1.1);
 }
-
-
 .project-title {
     text-align: center;
     position: relative;
@@ -149,19 +141,12 @@ a {
     top: 10%;
     color: var(--details);
 }
-
-
-
-
-
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     border-radius: 5px;
     object-fit: cover;
-
 }
-
 
 /* Contact section */
 .contact-section {
@@ -172,17 +157,12 @@ a {
     text-align: center;
     width: 100%;
     height: 100vh;
-
 }
-
 .contact-section-header>h2 {
     font-size: 65.58px;
     text-align: center;
     color: #36406e;
 }
-
-
-
 .contact-section-header>p {
     font-style: italic;
     text-align: center;
@@ -190,7 +170,6 @@ a {
     font-weight: bold;
     color: #36406e;
 }
-
 .contact-links {
     display: flex;
     justify-content: center;
@@ -199,87 +178,66 @@ a {
     flex-wrap: wrap;
     color: #36406e;
 }
-
 .contact-links a {
     padding: 1em;
     color: #36406e;
     transition: .5s, color .10s;
-
 }
-
 .contact-links a:hover {
     color: #7686ba;
     font-weight: bold;
     transform: scale3d(1.1, 1.1, 0.3);
     -webkit-transform: scale3d(1.1, 1.1, 0.3);
     -moz-transform: scale3d(1.1, 1.1, 0.3);
-
 }
-
 .contact-details {
     font-size: 27px;
     text-shadow: 1px 1px 3px #36406e;
-
 }
-
 .footer {
     text-align: center;
     color: #d5ddf5;
     background-color: #0000009d;
 }
-
-/*------Desktop------*/
-
+/*------------Mediaquerys------------*/
 /*------Tablet ------*/
 @media (max-width: 1201px) {
     .card {
         margin: 10px;
-
     }
 }
-
 /*------ Mobile -----*/
 @media (max-width: 599px) {
     .header nav a {
         font-size: 4vw;
     }
-
     .welcome-section h1 {
         font-size: 5vh;
         text-align: center;
     }
-
     .welcome-section p {
         font-size: 2vh;
     }
-
     .nav {
         justify-content: center;
     }
-
     .card {
         transition: none;
-
     }
-
     .card:hover {
         transform: none;
     }
-
     .welcome-section p {
         padding: 5%;
     }
-
     .contact-section-header>h2 {
         font-size: 5vh;
         padding: 1rem;
     }
-
     .contact-section-header>p {
         font-size: 2vh;
         padding: 1rem;
     }
-
     .contact-details {
         font-size: 2vh;
     }
