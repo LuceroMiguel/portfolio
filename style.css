@@ -64,10 +64,10 @@ a {
     justify-content: center; 
     height: 100vh;
     
-
 }
 
 .welcome-section p {
+    
     font-size: 23px;
     font-weight: 600;
     font-style: Poppins'sans-serif';
@@ -206,26 +206,28 @@ a {
     
 }
 
+.footer {
+    text-align: center;
+    color:#d5ddf5;
+    background-color: #0000009d;
+}
 
 /*------Desktop------*/
-@media (max-width: 1799px) {
-    .welcome-section h1 {
-        color: red;
 
-    }
-}
 /*------Tablet ------*/
 @media (max-width: 1201px){
-    .welcome-section h1 {
-        color: rgb(0, 204, 34);
-
+    .card {
+        margin: 10px;
+        
     }
 }
 /*------ Mobile -----*/
-@media (max-width: 599px) (min-width: 320px) {
+@media (max-width: 599px)  {
+    .header nav a {
+        font-size: 4vw;
+    }
     .welcome-section h1 {
         font-size: 5vh;
-        color: rgb(255, 0, 234);
         text-align: center;
     }
     .welcome-section p{
