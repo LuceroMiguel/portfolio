@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,7 +21,6 @@
 
 .header {
     position: fixed;
-    
     width: 100%;
     background-color: #36406e;
 }
@@ -74,7 +72,7 @@ a {
     font-weight: 600;
     font-style: Poppins'sans-serif';
     color: #414f88;
-    padding-left: 5%;
+    padding: 5%;
 }
 
 .welcome-section h1 {
@@ -169,11 +167,7 @@ a {
     color: #36406e;
 }
 
-@media (max-width: 28.75em) {
-    .contact-section-header>h2 {
-        font-size: 4rem;
-    }
-}
+
 
 .contact-section-header>p {
     font-style: italic;
@@ -228,7 +222,7 @@ a {
     }
 }
 /*------ Mobile -----*/
-@media (max-width: 599px) {
+@media (max-width: 599px) (min-width: 320px) {
     .welcome-section h1 {
         font-size: 5vh;
         color: rgb(255, 0, 234);
@@ -251,7 +245,7 @@ a {
         padding: 5%;
     }
     .contact-section-header>h2{
-        font-size: 3vh;
+        font-size:5vh;
         padding: 1rem;
     }
     .contact-section-header>p {
